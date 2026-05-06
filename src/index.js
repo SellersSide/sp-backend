@@ -16,8 +16,10 @@ const PORT = process.env.PORT || 3000;
 app.use(helmet());
 
 // ── CORS — allow campaign.sellersside.com + localhost dev
+// ── CORS — allow campaign.sellersside.com + localhost dev
 const allowedOrigins = [
   'https://campaign.sellersside.com',
+  'https://ce5c50bd-8a87-4ed6-abd1-5490cae8ef03.preview.emergentagent.com',
   'http://localhost:3000',
   'http://localhost:5173',
   'http://127.0.0.1:5173',
